@@ -1,0 +1,149 @@
+/* Contact.css */
+.contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contact-container {
+    margin-top: 80px; /* Adjust based on your navbar height */
+}
+
+.contact h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+    color:  rgb(12, 117, 133);
+}
+
+.contactcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.containr1, .container1 {
+    width: 45%;
+    min-width: 300px;
+    margin: 20px 0;
+}
+
+#contactForm {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm h2 {
+    margin-bottom: 20px;
+    color: rgb(12, 117, 133);
+    font-size: 1.8rem;
+}
+
+.contactElements {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contactElements:focus {
+    outline: none;
+    border-color: rgb(12, 117, 133);
+}
+
+textarea.contactElements {
+    resize: vertical;
+    min-height: 140px;
+}
+
+#contactForm button {
+    background-color: rgb(12, 117, 133);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: rgb(12, 117, 133);
+}
+
+#contactDetails {
+    padding: 20px;
+}
+
+.contactList1 {
+    list-style: none;
+    padding: 0;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contactDetailIcon {
+    margin-right: 15px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.element {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contactList1 hr {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.contactList1 p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.list2 {
+    margin-top: 30px;
+}
+
+.contctIcons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.icon1 {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.icon1:hover {
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .containr1, .container1 {
+        width: 100%;
+    }
+    
+    .contactcontainer {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,204 @@
+.footer {
+    background-color: rgb(12, 117, 133);
+    color: white;
+    padding: 5px 0;
+    margin-bottom: -30px;
+    
+   
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+
+h3 {
+    color: rgb(226, 224, 224);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    position: relative;
+    padding-left: 15px;
+}
+
+h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    transform: translateY(-50%);
+    height: 0%;
+    width: 2px;
+    background-color: rgba(114, 39, 39, 0.3);
+    font: 1em sans-serif;
+}
+
+.footerDes {
+    color: rgb(150, 194, 216);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.icons {
+    display: flex;
+    gap: 5rem;
+    margin-top: 0rem;
+    align-items: right;
+}
+
+.icon {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.icon:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contentFooter {
+    flex: 2;
+    min-width: 40px;
+    padding: 10px 20px;
+    text-align: left;
+    align-items: left;
+}
+.contactList{
+    align-items: right;
+}
+
+.footerTitle {
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+  
+.footertitle{
+    margin-left: 120px;
+}
+
+.footerlist1, .footerlist2 {
+    list-style: none;
+    display: flex;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    list-style-type: disc; /* Use dots */
+    list-style-position: inside;
+}
+
+.footerlist1 li, .footerlist2 li {
+    margin-bottom: 0.8rem;
+    color: white;
+}
+
+.footerlist1 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    line-height: 1.2;
+ 
+    list-style-type: disc; /* Use dots */
+    list-style-position: inside;
+}
+
+.footerlist1 a:hover {
+    color: rgb(18, 180, 99);
+}
+
+.contactIcon {
+    color: rgb(141, 175, 208);
+    margin-left: 120px;
+    font-weight: 700;
+    min-width: 0px;
+    line-height: 1.5;
+   
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.copyright {
+    padding: 0px;
+    border-top: 0px solid rgba(255, 255, 255, 0.1);
+    margin-top: 0rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+.secondlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+.secondlist li {
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+.secondlist a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.secondlist a:hover {
+    opacity: 0.8;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 5px 0; /* Reduce footer padding */
+    }
+
+    .contentFooter {
+        padding: 10px 15px; /* Reduce inner content padding */
+    }
+
+    .icon {
+        padding: 5px; /* Reduce icon padding */
+    }
+
+    .footerlist1, .footerlist2 {
+        padding: 5px 15px; /* Reduce list padding */
+    }
+
+    h3 {
+        font-size: 1rem; /* Slightly smaller heading */
+        margin-bottom: 1rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .secondlist {
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+

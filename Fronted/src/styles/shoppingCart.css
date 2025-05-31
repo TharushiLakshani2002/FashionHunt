@@ -1,0 +1,108 @@
+/* Container Styling */
+.shopping-cart {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography */
+  .shopping-cart h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .shopping-cart .form-control {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .shopping-cart .form-control:focus {
+    border-color: #0fb8a1;
+    box-shadow: none;
+  }
+  
+  /* Labels */
+  .shopping-cart .form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Button Styling */
+  .shopping-cart .btn {
+    background-color:#0fb8a1;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .shopping-cart .btn:hover {
+    background-color:#0fb8a1;
+  }
+  /* Custom CSS for ShoppingCart Component */
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .btn-link {
+    text-decoration: none;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #72808e;
+    background-color: transparent;
+    color: #343a40;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .btn-outline-dark {
+    border-color: #343a40;
+  }
+  
+  
+  /* Back to Shopping Link */
+  .shopping-cart .back-to-shopping {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #700532;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .shopping-cart .back-to-shopping:hover {
+    color: #5a0429;
+  }
+  
+  .shopping-cart .back-to-shopping i {
+    margin-right: 0.5rem;
+  }
+  
