@@ -29,6 +29,31 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function Home(){
+    //const [products, setProducts] = useState([]);
+
+//   useEffect(() => {
+//     fetch('http://localhost:5000/api/products')  // Update port if needed
+//       .then(res => res.json())
+//       .then(data => setProducts(data))
+//       .catch(err => console.error(err));
+//   }, []);
+
+  // Group products by category
+//   const groupedProducts = products.reduce((groups, product) => {
+//     const category = product.category || "Others";
+//     if (!groups[category]) groups[category] = [];
+//     groups[category].push(product);
+//     return groups;
+//   }, {});
+
+  // You can order the categories manually if you want
+  const categoriesOrder = [
+    "Featured Products",
+    "New Arrivals",
+    "Casuals",
+    "Ladies Wears",
+  ];
+
     return(
         <div className="home">
             <Navbar/>
